@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:bisque ;
+  color: white;
+}
+
+.main {
+  display: flex;
+  padding: 64px;
+  gap: 5px;
+  
+}
+
+.left {
+  background-color: #272727;
+  text-align: center;
+  flex: 30%;
+  padding-top: 32px;
+  padding-bottom: 64px;
+  border-radius: 32px;
+ 
+}
+
+.tributeimg {
+  width: 350px;
+  border-radius: 16px;
+}
+
+.left > h3 {
+  color: rgb(253, 129, 84);
+  font-size: 32px;
+  margin-top: 18px;
+}
+
+.left > p {
+  font-weight: 300;
+  color: #c0c0c0;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.icons > img {
+  width: 32px;
+}
+
+.right {
+  flex: 70%;
+  background-color: #272727;
+  padding: 32px;
+  border-radius: 32px;
+  
+}
+
+.right > h1 {
+  font-size: 32px;
+  color: rgb(253, 129, 84);
+  margin-bottom: 16px;
+  border-bottom: 2px solid #bbbbbb50;
+}
+
+form {
+  margin-top: 64px;
+}
+
+form > h3 {
+  color: rgb(253, 129, 84);
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+input {
+  width: 60%;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #313131;
+}
+
+button {
+ background: linear-gradient(to bottom right, orangered, rgb(253, 129, 84), orangered);
+  color: white;
+  height: 40px;
+  width: 60%;
+  border-radius: 8px;
+  margin-top: 32px;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(8, 38, 113);
+  color: white;
+  cursor: pointer;
+}
